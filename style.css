@@ -135,7 +135,10 @@ body{
 @media (max-width: 480px) {
     .container{
         flex-direction: column;
-        height: 100%;
+        box-shadow: none;
+    }
+    body{
+        align-items: start;
     }
     .result_container{
         width: 100%;
